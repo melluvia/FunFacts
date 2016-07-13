@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C326BD61D1F8FEA0089ADD9 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C326BD51D1F8FEA0089ADD9 /* FactModel.swift */; };
+		6C326BD81D31E84A0089ADD9 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C326BD71D31E84A0089ADD9 /* ColorModel.swift */; };
 		6C55262A1D14F792009A7E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5526291D14F792009A7E79 /* AppDelegate.swift */; };
 		6C55262C1D14F792009A7E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C55262B1D14F792009A7E79 /* ViewController.swift */; };
 		6C55262F1D14F792009A7E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C55262D1D14F792009A7E79 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C326BD51D1F8FEA0089ADD9 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		6C326BD71D31E84A0089ADD9 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		6C5526261D14F791009A7E79 /* Funfacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Funfacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5526291D14F792009A7E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C55262B1D14F792009A7E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 			children = (
 				6C5526291D14F792009A7E79 /* AppDelegate.swift */,
 				6C55262B1D14F792009A7E79 /* ViewController.swift */,
+				6C326BD51D1F8FEA0089ADD9 /* FactModel.swift */,
 				6C55262D1D14F792009A7E79 /* Main.storyboard */,
 				6C5526301D14F792009A7E79 /* Assets.xcassets */,
 				6C5526321D14F792009A7E79 /* LaunchScreen.storyboard */,
 				6C5526351D14F792009A7E79 /* Info.plist */,
+				6C326BD71D31E84A0089ADD9 /* ColorModel.swift */,
 			);
 			path = Funfacts;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C326BD61D1F8FEA0089ADD9 /* FactModel.swift in Sources */,
 				6C55262C1D14F792009A7E79 /* ViewController.swift in Sources */,
 				6C55262A1D14F792009A7E79 /* AppDelegate.swift in Sources */,
+				6C326BD81D31E84A0089ADD9 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.Funfacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -264,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.Funfacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -286,6 +296,7 @@
 				6C55263A1D14F792009A7E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
