@@ -19,17 +19,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9D-Y7-kys">
-                                <rect key="frame" x="40" y="193" width="520" height="65"/>
+                                <rect key="frame" x="40" y="174" width="520" height="65"/>
                                 <string key="text">"You are born with 300 bones; by the time you are an adult you will have 206.", "You are born with 300 bones; by the time you are an adult you will have 206.",</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Did You Know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="441-21-GUx">
+                                <rect key="frame" x="243" y="92" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCg-ar-4bS">
-                                <rect key="frame" x="40" y="480" width="520" height="40"/>
+                                <rect key="frame" x="40" y="314" width="520" height="40"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="6gr-Xn-Ihj"/>
+                                    <constraint firstAttribute="height" constant="40" id="ZrW-kA-SqJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -38,23 +44,19 @@
                                     <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="m53-v8-UXk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Did You Know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="441-21-GUx">
-                                <rect key="frame" x="274" y="52" width="114" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="t9D-Y7-kys" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="7ln-N1-QsB"/>
-                            <constraint firstItem="aCg-ar-4bS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="JxS-Nd-8gK"/>
-                            <constraint firstItem="441-21-GUx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="251" id="UT2-NZ-UXL"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aCg-ar-4bS" secondAttribute="bottom" constant="80" id="Zz5-dJ-Aj3"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="t9D-Y7-kys" secondAttribute="trailing" constant="20" id="bCK-pc-Tkn"/>
-                            <constraint firstItem="441-21-GUx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="d7d-dd-zfa"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="aCg-ar-4bS" secondAttribute="trailing" constant="20" id="khm-jf-eaK"/>
+                            <constraint firstItem="aCg-ar-4bS" firstAttribute="top" secondItem="t9D-Y7-kys" secondAttribute="bottom" constant="75" id="8PN-10-ekm"/>
+                            <constraint firstItem="aCg-ar-4bS" firstAttribute="leading" secondItem="t9D-Y7-kys" secondAttribute="leading" id="Td1-Jr-Jio"/>
+                            <constraint firstItem="441-21-GUx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="144" id="Uld-EI-aRb"/>
+                            <constraint firstItem="aCg-ar-4bS" firstAttribute="trailing" secondItem="t9D-Y7-kys" secondAttribute="trailing" id="WRe-8Z-6Ob"/>
+                            <constraint firstItem="441-21-GUx" firstAttribute="centerX" secondItem="t9D-Y7-kys" secondAttribute="centerX" id="e7t-OC-wxQ"/>
+                            <constraint firstItem="t9D-Y7-kys" firstAttribute="top" secondItem="441-21-GUx" secondAttribute="bottom" constant="40" id="fzU-Yh-qna"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aCg-ar-4bS" secondAttribute="bottom" constant="246" id="md9-II-6dB"/>
                             <constraint firstItem="t9D-Y7-kys" firstAttribute="top" secondItem="441-21-GUx" secondAttribute="bottom" constant="120" id="niC-ye-sKM"/>
+                            <constraint firstItem="aCg-ar-4bS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rcc-w9-5W9"/>
+                            <constraint firstItem="aCg-ar-4bS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="tvE-mE-Baw"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">

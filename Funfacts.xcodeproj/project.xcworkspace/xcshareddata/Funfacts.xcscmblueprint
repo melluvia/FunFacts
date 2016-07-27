@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FF459E2B81B443C26789AE4FBC69356DF1D179DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "13B6173A5691F63888EDB594D7EC97DA19B9E4CE" : 0,
+    "FF459E2B81B443C26789AE4FBC69356DF1D179DD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FB76051C-71ED-41C4-96BE-A2025D43A852",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "13B6173A5691F63888EDB594D7EC97DA19B9E4CE" : "",
+    "FF459E2B81B443C26789AE4FBC69356DF1D179DD" : "Funfacts\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Funfacts",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Funfacts.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/melluvia\/BeginningSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13B6173A5691F63888EDB594D7EC97DA19B9E4CE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/melluvia\/FunFacts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF459E2B81B443C26789AE4FBC69356DF1D179DD"
+    }
+  ]
+}
